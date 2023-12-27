@@ -1,0 +1,41 @@
+.background {
+  background-image: url(https://media1.giphy.com/media/QP8CaCPsc0AaWnwBbV/giphy.gif?cid=ecf05e471zn56plkaor0mdxe2tjpjn5k1alu9p9q8wpoo2yq&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+  background-size: 1157px;
+  background-repeat: no-repeat;
+}
+.container {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50vh;
+  width: 90vw;
+  background-color: white;
+  height: 20vh;
+  border-radius: 20px;
+  box-shadow: 4px 6px whitesmoke;
+  &__h1 {
+    color: #023047;
+    font-family: $robotoSlab;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-top: 30px;
+  }
+  &__form {
+    width: 50vw;
+    height: 4vh;
+    background-color: grey;
+    margin: 0 auto;
+    &__input {
+      width: 100%;
+      margin-top: 20px;
+      height: 100%;
+      border: 2px solid #023047;
+      border-radius: 10px;
+      &::placeholder {
+        text-align: center;
+        color: #0230479c;
+        font-family: $robotoSlab;
+        font-size: 1rem;
+      }
+    }
+  }
+}
