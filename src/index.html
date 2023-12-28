@@ -5,27 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <title>Wheather app</title>
     <link rel="stylesheet" href="./scss/main.scss" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
   crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-  <body class="background">
-      <div class="container">
-        <h1 class="container__h1">My whather app</h1>
-        <form class="container__form">
-          <input class="container__input"
-            type="text"
-            value=""
-            name="location"
-            name="location"
-            class="location"
-            placeholder="Inserte su ciudad..."
-          />
-          <button><i class="fa-solid fa-magnifying-glass search"></i></button>
-        </form>
-      </div>
+  <body>
+    <header class="header">
+     <load src="../src/partials/header.html"/>
+    </header>
+    <main>
+      <section class="dayForescast">
+        <load src="../src/partials/dayForescast.html"/>
+      </section>
+      <section class="weeklyForescast">
+        <load src="../src/partials/weeklyForescast.html"/>
+      </section>
+      <section class="airConditions">
+        <load src="../src/partials/airConditions.html"/>
+      </section>
+    </main>
+    <footer class="footer">
+      <load src="../src/partials/footer.html"/>
+    </footer>
   </body>
 </html>
