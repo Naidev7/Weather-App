@@ -1,0 +1,48 @@
+.table{
+    margin: 0 auto;
+    margin-top : 60px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: $darkBlue;
+    &__header{
+        color: $grey;
+        font-family: $text;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        text-align: start;
+        background-color:$darkBlue ;
+        padding-bottom: 20px;
+    }
+    &__items{
+        color: $grey ;
+        background-color:$darkBlue;
+        > p{
+            font-family: $text;
+            font-size: 0.75rem;
+            margin: 20px 0 20px 0;
+            background-color:$darkBlue ;
+            text-align: center;
+            font-weight: 400;
+        }
+        & .grados{
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: white;
+        }
+        > .icon{
+            font-size: 12px;
+            background-color:$darkBlue ;
+            font-size: 50px;
+            margin-left: 20px;
+        }
+        > .clouds{
+            color: white;
+        }
+        > .sun{
+            color: $yellow;
+        }
+        > .moon{
+            color:$black ;
+        }
+    }
+}
